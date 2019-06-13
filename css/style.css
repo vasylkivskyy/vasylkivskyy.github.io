@@ -1,9 +1,48 @@
 body{
-	background-color:#8DF492;
-	font-family: Verdana;
-	
+	font-family: Verdana;	
 } 
-p, h3{
+header{
+	background-color: #5516BD;
+	height: 70px;
+	width: 1200px;
+	margin:auto;
+	border-radius: 10px;
+	position: relative;
+}
+h3{
+	position: absolute;
+	text-align: center;	
+}
+aside{
+	margin:auto;
+	background-color: #3DF36C;
+	height: 600px;
+	width: 1200px;
+	border-radius: 10px;
+	position: relative;
+	z-index: 10;
+}
+aside figure{
+	position: absolute;
+	z-index: 300;
+	right: 20px;
+}
+.text{
+	position: absolute;
+	left: 70px;
+	top: 30px;
+}
+footer{
+	background-color: #5516BD;
+	height: 70px;
+	width: 1200px;
+	margin:auto;
+	border-radius: 10px;
+	position: relative;
+}
+footer p{
+	color: #FFFFFF;
+}
+figcaption{
 	text-align: center;
-	margin: 40px;
 }
