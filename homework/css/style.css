@@ -1,0 +1,133 @@
+body{
+	width: 1060px;
+	margin:auto;
+	padding-left: 30px;
+	padding-right: 65px;
+}
+
+header{
+	margin-top: 2px;
+	display: flex;
+	flex-grow: 1;
+	 height: 110px; 
+	/*  border:2px solid red;  */
+}
+#nationwide{
+	color: #406582;
+	font-size: 15px;
+	text-align: center;
+	font-weight: 600;
+}
+#look{
+	text-transform: capitalize;
+	font-weight: 700;
+	margin-bottom:0;
+}
+#signup_text{
+	margin:0px;
+	margin-right: 10px;
+}
+#sign_up{
+	display: inline-block;
+	color: #E69E18;
+	font-weight: 700;
+	vertical-align:middle;
+}
+#right{
+	height: 18px;
+	display: inline-block;
+	vertical-align:middle;
+}
+
+.block2{
+
+	border:2px solid #BDD8ED;
+	border-radius: 10px;
+	background-color: #F8F9FB;
+}
+#one{
+	display: inline-block;
+	vertical-align:middle;
+
+}
+#shop_online{
+	border-right: 2px solid #165A8E;
+	color: #165A8E;
+	padding-right: 6px;
+	font-weight: 700;
+}
+#shop_online, #cart, #basket, #Enter_zip, #find_our_stores{
+	display: inline-block;
+}
+#find_our_stores,#Enter_zip{
+	vertical-align: middle;
+}
+#find_our_stores{
+	color: #165A8E;
+	padding-right: 5px;
+	font-weight: 700;
+	margin: 0;
+}
+#telephone{
+	margin: 0;
+	margin-left:180px;
+	margin-bottom: 10px;
+}
+.block2{
+	padding-left: 10px;
+}
+/* .block1{
+	border:2px solid #BDD8ED;
+	padding-right: 0;
+	margin-right: 0;
+}
+ */
+ .block2{
+	border:2px solid #BDD8ED;
+	padding-right: 0;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+ 
+ .block3{
+ 	margin-top: 10px;
+	padding-right: 0;
+	margin-right: 0;
+}
+ 
+  .block4{
+	border:2px solid #BDD8ED;
+	padding-right: 0;
+	margin-left: 2px;
+}
+nav div{
+	display: inline-block;
+	color: #FFFFFF;
+}
+nav{
+	background-color: #277CC0;
+	border-radius: 5px;
+	margin-top: 10px;
+	padding:2px;
+}
+.text_1{
+	margin-left:460px;
+}
+.text_1,.text_2{
+	padding-right: 5px;
+	border-right: 2px solid #FFFFFF;
+}
+.text_2,.text_3{
+	padding-left: 4px;
+}
+.text_on{
+		padding-left: 4px;
+		padding-right: 4px;
+}
+
+
+ 
+
+
+
+
