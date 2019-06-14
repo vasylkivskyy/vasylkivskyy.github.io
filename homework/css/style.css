@@ -124,6 +124,49 @@ nav{
 		padding-left: 4px;
 		padding-right: 4px;
 }
+aside{
+	height: 930px;
+	width: 196px;
+	/*border:1px solid blue;*/
+	margin-top: 5px;
+	background-color: #E8F0F6;
+}
+.main{
+	height: 32px;
+	background-color: #85B5DB;
+	font-weight: 600;
+font-size: 21px;
+}
+aside div{
+	padding-top: 3px;
+	height: 27px;
+	border-bottom: 1px solid #E0E0E0;
+}
+.space{
+	font-weight: 600;
+}
+.classic{
+	font-weight: 500;
+	color: #336699;
+}
+.sleep a{
+	color: #336699;
+}
+.classic img{
+visibility: hidden;
+}
+#space{
+	border-bottom: none;
+}
+
+#main{
+	margin-top: 15px;
+}
+#space2{
+	margin-top: 80px;
+	border-bottom: none;
+}
+
 
 
  
