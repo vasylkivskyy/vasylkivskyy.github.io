@@ -1,5 +1,6 @@
 body{
 	font-family: Verdana;	
+	background-image: url(../images/tree.jpg);
 } 
 header{
 	background-color: #5516BD;
@@ -7,10 +8,8 @@ header{
 	width: 1200px;
 	margin:auto;
 	border-radius: 10px;
-	position: relative;
 }
 h3{
-	position: absolute;
 	text-align: center;	
 }
 aside{
@@ -24,7 +23,7 @@ aside{
 }
 aside figure{
 	position: absolute;
-	z-index: 300;
+	z-index: 200;
 	right: 20px;
 }
 .text{
@@ -42,6 +41,8 @@ footer{
 }
 footer p{
 	color: #FFFFFF;
+	position: absolute;
+
 }
 figcaption{
 	text-align: center;
