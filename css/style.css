@@ -15,7 +15,7 @@ h3{
 aside{
 	margin:auto;
 	background-color: #3DF36C;
-	height: 600px;
+	height: 800px;
 	width: 1200px;
 	border-radius: 10px;
 	position: relative;
@@ -45,5 +45,8 @@ footer p{
 
 }
 figcaption{
+	text-align: center;
+}
+h1{
 	text-align: center;
 }
