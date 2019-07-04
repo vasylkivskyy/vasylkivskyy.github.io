@@ -13,10 +13,11 @@ currency.addEventListener("change", function(){
 	XHR.send();
 	XHR.addEventListener("readystatechange", function(){
 			//console.log (XHR.responseText); //дані відобразились в консолі в JSOn форматі
+			if ((XHR.readyState === 4) && (XHR.status === 200)) {
 			var data=JSON.parse(XHR.responseText);
 			console.log(data[0].rate);
 			result.innerHTML=`<h1>${(data[0].rate).toFixed(2)}</h1>`
-			
+			}
 
 			//if ((XHR.readystate === 4) && (XHR.status === 200)) {
 			//console.log (XHR.responseText);
