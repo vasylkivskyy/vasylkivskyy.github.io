@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <select name="currency" id="currency">
+        <option value="USD">US Dollar</option>
+        <option value="EUR">EURO</option>
+        <option value="PLN">Zloty</option>
+    </select>
+    <input type="date" name="first_date" id="first_date">
+    <input type="date" name="last_date" id="last_date">
+    <input type="button" id="btnGo" value="Start">
+    <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+    <script src="main.js"></script>
+</body>
+</html>
